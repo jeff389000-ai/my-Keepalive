@@ -3,7 +3,7 @@ async function sendTGMessage(message, env) {
   const chatId = env.TG_CHAT_ID;
 
   if (!botToken || !chatId) {
-    console.log("TG_BOT_TOKEN 或 TG_CHAT_ID 未设置，跳过发送 Telegram 消息");
+    console.log("TG_BOT_TOKEN 或 TG_CHAT_ID 未设置， 跳过发送 Telegram 消息");
     return null;
   }
 
