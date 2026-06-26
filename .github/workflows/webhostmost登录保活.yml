@@ -1,7 +1,7 @@
 name: webhostmost登录保活
 
 on:
-  # 每月的第一天 00:00 UTC 执行
+  #  每月的第一天 00:00 UTC 执行
   schedule:
     - cron: '0 0 1 * *'
   workflow_dispatch:
